@@ -1,0 +1,58 @@
+.dialog {
+    position: fixed;
+    z-index: 10;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.table-infor{
+    margin-top: 30%;
+    
+}
+.icon-infor{
+    width: 25%;
+}
+.icon-infor img{
+    width: 75%;
+}
+
+.table-SJ {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 140%;
+    border: 1px solid #ddd;
+    margin-left: 17%;
+}
+
+.table-SJ th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+.table-SJ tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.header-table {
+    background-color: black;
+    color: #ddd;
+}
